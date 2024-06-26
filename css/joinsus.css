@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 5px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    text-decoration:none;
+    padding: 5px;
+    font-size: 20px ;
+}
+.menu_a{
+    text-decoration: none;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3fr,1fr);
+    background-color: rgb(9, 70, 70);
+    gap: 5px;
+    height:100VH;
+}
+.box{
+    background-color: rgb(255, 255, 255);
+}
+#image{
+    grid-column: span 3;
+}
+#text{
+    grid-column: span 3;
+}
+#label{
+    grid-column: span 3;
+}
+#image img{
+    width: 100%;
+    height: 100%;
+}
+#label{
+    display: flex;
+    justify-content: space-between;
+}
+
+div{
+    font-family: "Inter", sans-serif;
+}
+p{
+    font-family: "Inter", sans-serif;
+}
+pre{
+    font-family: "Inter", sans-serif;
+}
